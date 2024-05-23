@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fbf8f3;
+}
+
+.shopname{
+    text-align: center;
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #232323;
+}
+
+.container .item{
+   padding: 20px;
+   text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.outerbox{
+    background-color: #fbf8f3;
+}
+
+.juice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.juiceitems{
+    text-align: center;
+}
+
+.juiceimg{
+    border-radius: 30px;
+    height: 180px;
+    width: 180px;
+    padding: 0.5rem;
+  
+    
+    
+}
